@@ -1,0 +1,19 @@
+.container {
+  padding-top: 50px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container .film_cont {
+  width: calc((100% - 200px) / 5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
