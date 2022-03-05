@@ -13,7 +13,7 @@
         <div class="container">
             @foreach ($data_movies as $valore)
             <div class="film_cont">
-                <h2>Titolo: {{$valore['title']}}</h2>
+                <h3>Titolo: {{$valore['title']}}</h3>
                 <p>Titolo-Originale: {{$valore['original_title']}}</p>
                 <p>Nazionalità: {{$valore['nationality']}}</p>
                 <p>Data: {{$valore['date']}}</p>

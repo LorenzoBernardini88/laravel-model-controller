@@ -10,6 +10,6 @@ class CheckMovie extends Controller
 {
     public function index(){
         $data_movies = movie::all();
-        return view('welcome',compact('data_movies'));
+        return view('home',compact('data_movies'));
     }
 }
