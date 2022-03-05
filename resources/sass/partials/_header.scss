@@ -1,0 +1,30 @@
+header{
+    position: relative;
+}
+.jumbo_cont{
+    height: 350px;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.testo{
+    padding: 30px;
+    background-color:red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    border-radius: 0 20px 20px 0;
+}
+h1{
+    font-size: 5.5rem;
+    font-weight:bolder;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.5;
+}
+

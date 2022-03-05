@@ -1,4 +1,6 @@
-.container {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
+
+300;400;500;700&display=swap);.container {
   padding-top: 50px;
   width: 1200px;
   display: flex;
@@ -11,9 +13,47 @@
   width: calc((100% - 200px) / 5);
 }
 
+header {
+  position: relative;
+}
+
+.jumbo_cont {
+  height: 350px;
+}
+
+.jumbo_cont img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testo {
+  padding: 30px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  border-radius: 0 20px 20px 0;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.5;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 

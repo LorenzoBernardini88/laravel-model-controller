@@ -9,6 +9,7 @@
     <title>Laravel-Model-Controller</title>
 </head>
 <body>
+    @include('commons.header')
     <main>
         <div class="container">
             @foreach ($data_movies as $valore)
