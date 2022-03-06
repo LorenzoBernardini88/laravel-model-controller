@@ -13,9 +13,12 @@
 
 table{
     width: 100%;
-    border: none;
+    border-spacing:0;
     th{
-        width: 15%;
+        width: 20%;
+        &:last-child{
+            width: 10%;
+        }
     }
 }
 .title_column{
@@ -24,14 +27,18 @@ table{
     background-color: #D64E85;
     opacity: 0.9;
     th{
-        padding: 10px 0;
-
+        padding: 15px 0;
     }
 }
 .data_table{
     color: #fff;
-    background-color: #252525;
-    th{
-        padding: 5px 0;
+    &:nth-child(odd){
+        background-color: #252525;
+    }
+    &:nth-child(even){
+        background-color: black;
     }
 }
+
+
+

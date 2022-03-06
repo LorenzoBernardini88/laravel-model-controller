@@ -5,5 +5,4 @@
     <div class="testo">
         <h1>movie list</h1>
     </div>
-    <div class="border"></div>
 </header>
