@@ -28,8 +28,8 @@ table th:last-child {
 .title_column {
   color: #fff;
   text-transform: uppercase;
-  background-color: #D64E85;
-  opacity: 0.9;
+  background-color:#D64E85 ;
+  opacity: 0.8;
 }
 
 .data_table {
