@@ -1,16 +1,31 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
 
-300;400;500;700&display=swap);.container {
-  padding-top: 50px;
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+300;400;500;700&display=swap);table {
+  width: 100%;
 }
 
-.container .film_cont {
-  width: calc((100% - 200px) / 5);
+table th {
+  width: 15%;
+}
+
+.title_column {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #D64E85;
+  opacity: 0.8;
+}
+
+.title_column th {
+  padding: 10px 0;
+}
+
+.data_table {
+  color: #fff;
+  background-color: #252525;
+}
+
+.data_table th {
+  padding: 5px 0;
 }
 
 header {
@@ -52,7 +67,7 @@ header {
   width: 100%;
   height: 10px;
   background-color: #D64E85;
-  opacity: 0.8;
+  opacity: 0.9;
   border-top: solid 1px #fff;
 }
 
