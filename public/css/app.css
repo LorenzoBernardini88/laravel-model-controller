@@ -31,7 +31,7 @@ header {
 .testo {
   padding: 30px;
   background-color: #D64E85;
-  opacity: 0.9;
+  opacity: 0.6;
   position: absolute;
   top: 50%;
   left: 0;
@@ -41,11 +41,11 @@ header {
 
 h1 {
   font-size: 5.5rem;
-  font-weight: bolder;
+  font-weight: bold;
   display: inline-block;
   text-transform: uppercase;
   color: white;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 * {
